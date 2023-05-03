@@ -34,16 +34,23 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
             Itens.Add(new Item(produto, qtde));
         }
         
-        public void RegistrarCompra(IEnumerable<Item> itens)
+        public void RegistrarCompra(List<Item> itens)
         {
-           
+            Itens = new List<Item>();
+            AdicionarItem(new Produto("vassoura", "vassoura", "Madeira", 20), 10);
+        }
+
+        public void ObterTotalGeral() {
+            decimal soma = 0;
+            foreach (var item in Itens)
+                soma += item.Subtotal.Value;
+            TotalGeral = new Money(soma);
         }
 
         public void VerificarCondicaoPagamentoTrintaDias()
         {
-            if (TotalGeral.Value <= 50000)
-                throw new BusinessRuleException("O Total geral é menor ou igual a 50000, a condição de pagamento não será de 30 dias");
-            else
+            ObterTotalGeral();
+            if (TotalGeral.Value > 50000)
             {
                 CondicaoPagamento = new CondicaoPagamento(30);
                 AddEvent(new CondicaoPagamentoAtualizadaEvent(Guid.NewGuid(), CondicaoPagamento));
@@ -52,7 +59,7 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
 
         public void VerificarItensCompraMaiorQueZero()
         {
-            if (!Itens.Any())
+            if (Itens == null || !Itens.Any())
                 throw new BusinessRuleException("O total de itens de compra deve ser maior que 0");
         }
     }

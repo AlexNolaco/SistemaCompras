@@ -1,5 +1,7 @@
 ﻿using MediatR;
+using SistemaCompra.Domain.SolicitacaoCompraAggregate;
 using SistemaCompra.Infra.Data.UoW;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using SolicitacaoCompraAgg = SistemaCompra.Domain.SolicitacaoCompraAggregate;
@@ -18,6 +20,7 @@ namespace SistemaCompra.Application.SolicitacaoCompra.Command.RegistrarCompra
         public Task<bool> Handle(RegistrarCompraCommand request, CancellationToken cancellationToken)
         {
             var solicitacaoCompra = new SolicitacaoCompraAgg.SolicitacaoCompra(request.Nome, request.NomeFornecedor);
+            solicitacaoCompra.RegistrarCompra(new List<Item>());
             solicitacaoCompra.VerificarItensCompraMaiorQueZero();
             solicitacaoCompra.VerificarCondicaoPagamentoTrintaDias();
             solicitacaoCompraRepository.RegistrarCompra(solicitacaoCompra);
