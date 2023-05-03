@@ -21,7 +21,7 @@ namespace SistemaCompra.Infra.Data
                 .HasData(
                     new ProdutoAgg.Produto("Produto01", "Descricao01", "Madeira", 100)
                 );
-            modelBuilder.Entity<Money>().HasNoKey();
+            modelBuilder.Ignore<Money>();
             modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
