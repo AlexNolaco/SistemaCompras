@@ -286,3 +286,12 @@ C:\Projetos\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaC
 C:\Projetos\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.csproj.CopyComplete
 C:\Projetos\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.dll
 C:\Projetos\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.csproj.AssemblyReference.cache
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.AssemblyInfoInputs.cache
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.AssemblyInfo.cs
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.csproj.CoreCompileInputs.cache
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.dll
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.API\obj\Debug\netcoreapp3.1\SistemaCompra.API.pdb

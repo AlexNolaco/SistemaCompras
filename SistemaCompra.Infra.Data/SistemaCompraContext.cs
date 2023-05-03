@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SistemaCompra.Domain.Core;
+using SistemaCompra.Domain.Core.Model;
 using SistemaCompra.Infra.Data.Produto;
 using ProdutoAgg = SistemaCompra.Domain.ProdutoAggregate;
 using SolicitacaoAgg = SistemaCompra.Domain.SolicitacaoCompraAggregate;
@@ -20,7 +21,7 @@ namespace SistemaCompra.Infra.Data
                 .HasData(
                     new ProdutoAgg.Produto("Produto01", "Descricao01", "Madeira", 100)
                 );
-
+            modelBuilder.Entity<Money>().HasNoKey();
             modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
@@ -30,7 +31,7 @@ namespace SistemaCompra.Infra.Data
         {
             optionsBuilder.UseLoggerFactory(loggerFactory)  
                 .EnableSensitiveDataLogging()
-                .UseSqlServer(@"Server=localhost\SQLEXPRESS01;Database=SistemaCompraDb;Trusted_Connection=True;MultipleActiveResultSets=true");
+                .UseSqlServer(@"Server=DESKTOP-JI1K0RC\SQLEXPRESS;Database=SistemaCompraDb;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
     }
 }

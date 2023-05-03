@@ -11,6 +11,15 @@
           "lib/netstandard2.0/MediatR.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -39,7 +48,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MediatR": "8.0.0"
+          "MediatR": "8.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.1"
         },
         "compile": {
           "bin/placeholder/SistemaCompra.Domain.Core.dll": {}
@@ -62,6 +72,20 @@
         "lib/netstandard2.0/MediatR.dll",
         "mediatr.8.0.0.nupkg.sha512",
         "mediatr.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/3.1.1": {
+      "sha512": "X7aqgBUGmEOhDa/PKiyTGW8NDvuMk/nbxclGsZcWbrNgwanprNq4ZZOSEL4yCNFhUY4pYFnWSwnsZcKZlEttzQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.abstractions/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
+        "microsoft.entityframeworkcore.abstractions.3.1.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -221,39 +245,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rasth\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\alexn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Prova-Sisprev\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\alexn\\Desktop\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
       "projectName": "SistemaCompra.Domain",
-      "projectPath": "C:\\Projetos\\Prova-Sisprev\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
-      "packagesPath": "C:\\Users\\rasth\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Prova-Sisprev\\SistemaCompras-v3\\SistemaCompra.Domain\\obj\\",
+      "projectPath": "C:\\Users\\alexn\\Desktop\\SistemaCompras-v3\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
+      "packagesPath": "C:\\Users\\alexn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexn\\Desktop\\SistemaCompras-v3\\SistemaCompra.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rasth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\alexn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://proget.icatuseguros.com.br/nuget/Icatu": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Projetos\\Prova-Sisprev\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
-              "projectPath": "C:\\Projetos\\Prova-Sisprev\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj"
+            "C:\\Users\\alexn\\Desktop\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\alexn\\Desktop\\SistemaCompras-v3\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj"
             }
           }
         }
@@ -284,7 +302,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

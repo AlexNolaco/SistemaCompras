@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -42,10 +42,6 @@
   <ItemGroup>
     <ProjectReference Include="..\SistemaCompra.Application\SistemaCompra.Application.csproj" />
     <ProjectReference Include="..\SistemaCompra.Infra.Data\SistemaCompra.Infra.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="SolicitacaoCompra\" />
   </ItemGroup>
 
 

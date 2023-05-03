@@ -17,7 +17,7 @@ namespace SistemaCompra.Domain.Core.Model
         {
             Value = value;
         }
-
+        
         public Money Add(Money money)
         {
             return new Money(Value + money.Value);

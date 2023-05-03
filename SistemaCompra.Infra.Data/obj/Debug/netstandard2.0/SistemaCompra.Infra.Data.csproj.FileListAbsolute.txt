@@ -24,3 +24,16 @@ C:\Projetos\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\
 C:\Projetos\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.csproj.CopyComplete
 C:\Projetos\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.dll
 C:\Projetos\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Infra.Data.deps.json
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Infra.Data.dll
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Infra.Data.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Domain.dll
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Domain.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.AssemblyInfo.cs
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.csproj.CopyComplete
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.dll
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.pdb
+C:\Users\alexn\Desktop\SistemaCompras-v3\SistemaCompra.Infra.Data\obj\Debug\netstandard2.0\SistemaCompra.Infra.Data.csprojAssemblyReference.cache
